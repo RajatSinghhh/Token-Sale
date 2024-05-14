@@ -1,0 +1,62 @@
+
+  .navbar-btns {
+    font-size: 10px !important;
+    display: flex;
+    flex-direction: row-reverse;
+  
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  .navbar-acc {
+    font-size: 10px !important;
+    display: flex;
+    flex-direction: row-reverse;
+  
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+    
+.navbar {
+  width: 100%;
+  height: 70px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color);
+  border-bottom: 0.4px solid rgb(182, 182, 182);
+}
+
+.navbar-info {
+  font-size: 12px;
+  display: flex;
+  gap: 20px;
+}
+
+.network{
+  background-color: white;
+  padding-top: 8px;
+  border-radius: 8px;
+}
+.connected-ac{
+  background-color: white;
+  padding-top: 8px;
+  border-radius: 8px;
+
+}
+.connected-staking{
+  background-color: white;
+  padding-top: 8px;
+  border-radius: 8px;
+  font-weight: 700;
+  
+}
+.navbar-right{
+  background-color: white;
+  padding-top: 8px;
+  border-radius: 8px;
+  font-weight: 700;
+  display: flex;
+}
